@@ -138,5 +138,6 @@
   "gitlens.launchpad.indicator.enabled": false,
   "cSpell.userWords": ["clsx"],
   "editor.wordWrap": "on",
-  "editor.stickyScroll.enabled": false
+  "editor.stickyScroll.enabled": false,
+  "workbench.colorTheme": "Default High Contrast"
 }
