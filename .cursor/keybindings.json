@@ -1,0 +1,116 @@
+// 키 바인딩을 이 파일에 넣어서 기본값 재정의
+[
+  {
+    "key": "ctrl+shift+cmd+b",
+    "command": "workbench.action.tasks.restartTask",
+    "when": "taskCommandsRegistered"
+  },
+  {
+    "key": "shift+cmd+j",
+    "command": "-extension.convertCSSinJS",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+up",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+down",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+left",
+    "command": "-editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "-editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+=",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+shift+[Backquote]",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+]",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.terminal.focusNext",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+[",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "-workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+-",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalHasBeenCreated || terminalIsOpen || terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+]",
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "]",
+    "command": "workbench.action.debug.nextConsole",
+    "when": "inDebugRepl"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.debug.nextConsole",
+    "when": "inDebugRepl"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+[",
+    "command": "workbench.action.previousEditor",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+[",
+    "command": "workbench.action.debug.prevConsole",
+    "when": "inDebugRepl"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "-workbench.action.debug.prevConsole",
+    "when": "inDebugRepl"
+  }
+]
