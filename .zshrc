@@ -136,6 +136,6 @@ alias python="/opt/homebrew/bin/python3"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # NPM TOKEN
-export NPM_TOKEN="ddb91c492315ff1ff257e8bcdeefd76e472d2ec2"
-export NPM_REGISTRY_TOKEN="ddb91c492315ff1ff257e8bcdeefd76e472d2ec2"
-export GITHUB_REGISTRY_TOKEN="ddb91c492315ff1ff257e8bcdeefd76e472d2ec2"
+export NPM_TOKEN="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"
+export NPM_REGISTRY_TOKEN="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"
+export GITHUB_REGISTRY_TOKEN="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"
